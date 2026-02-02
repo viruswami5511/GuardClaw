@@ -65,6 +65,36 @@ Modern AI deployments face unique security challenges:
 - Scheduled scanning
 - Integration with CI/CD pipelines
 
+- ## Features (v0.2.0)
+
+### ✅ **Configuration Security Scanner**
+- Detects unsafe deployment patterns (0.0.0.0 bindings, debug flags)
+- Severity scoring: Critical / High / Medium / Low
+- Context-aware analysis (dev vs production)
+- Detailed remediation guidance
+- Scans JSON, YAML, .env, Python, and more
+
+### ✅ **Encrypted Vault**
+- AES-256-GCM encryption with Argon2 key derivation
+- Store, retrieve, list, delete credentials
+- Export to .env format
+- Cross-platform (Windows, macOS, Linux)
+
+### ✅ **OpenClaw Import**
+- Migrate OpenClaw configs to encrypted storage
+- Automatic risk assessment during import
+
+### 🔧 **Secret Detection (Beta)**
+- Pattern matching for 50+ secret types
+- Currently optimized for .env and plaintext formats
+- JSON/YAML secret detection being refined
+
+### 🚀 **Coming in v0.3**
+- AI-powered security analysis (GPT-4, Claude)
+- Automated secret rotation
+- CI/CD integration (GitHub Actions, GitLab CI)
+- Compliance reporting (SOC2, ISO 27001)
+
 ---
 
 ## Quick Start
