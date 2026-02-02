@@ -47,8 +47,7 @@ setup(
     include_package_data=True,
     keywords="ai agent security openclaw credentials encryption audit",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/guardclaw/issues",
-        "Source": "https://github.com/yourusername/guardclaw",
-        "Documentation": "https://guardclaw.ai/docs",
+        "Bug Reports": "https://github.com/viruswami5511/GuardClaw/issues",
+        "Source": "https://github.com/viruswami5511/GuardClaw",
     },
 )
