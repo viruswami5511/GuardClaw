@@ -396,7 +396,6 @@ Star this repo if GuardClaw helps you! ⭐
 
 Made with 🔒 for secure AI deployments.
 
-text
 
 ***
 
@@ -412,12 +411,7 @@ text
 8. ✅ **FAQ section** - addresses common questions
 9. ✅ **Roadmap** - shows active development
 
-**This README positions GuardClaw as a complete security solution, not just a single-purpose scanner!** 🚀
-
-Save this as `README.md` and push:
-
 ```powershell
-# Save the content above to README.md, then:
-git add README.md
+
 git commit -m "docs: comprehensive README for GuardClaw v0.2.0"
 git push
