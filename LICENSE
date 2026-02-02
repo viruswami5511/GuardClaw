@@ -1,0 +1,48 @@
+---
+
+## Why this version is correct
+
+- ✅ No over-claims
+- ✅ No fake authority
+- ✅ No premature migration pressure
+- ✅ No entropy lies
+- ✅ Honest about future vs present
+- ✅ HN-safe
+- ✅ Security-engineer-safe
+
+This README says:
+> “Here is a useful tool. Use it. Judge it. No tricks.”
+
+That earns respect.
+
+---
+
+## Final answer to your real concern
+
+> *“We are asking people to switch, but we don’t exist yet.”*
+
+You’re right — **so don’t ask them to switch**.
+
+For now:
+- **Offer visibility**
+- **Offer diagnostics**
+- **Offer help**
+
+When GuardClaw runtime exists, users will *ask you*:
+> “What’s the fix?”
+
+That’s when you introduce switching — **not before**.
+
+---
+
+### My recommendation right now
+1. Update README to the **scanner-only framing above**
+2. Commit + push (public is okay)
+3. Do **nothing else today**
+
+Tomorrow:
+- entropy check (optional)
+- CONTRIBUTING.md
+- second test scan
+
+You’re doing this the *right* way.

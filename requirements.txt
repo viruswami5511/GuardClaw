@@ -1,0 +1,27 @@
+# Core dependencies
+cryptography>=42.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pyyaml>=6.0.1
+
+# CLI and UI
+click>=8.1.7
+rich>=13.7.0
+colorama>=0.4.6
+
+# Docker (for agent execution)
+docker>=7.0.0
+
+# LLM
+litellm>=1.30.0
+
+# Web scraping
+playwright>=1.41.0
+beautifulsoup4>=4.12.0
+
+# Search
+duckduckgo-search>=4.4.0
+
+# Testing
+pytest>=8.0.0
+pytest-cov>=4.1.0

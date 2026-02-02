@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+*.log
+.guardclaw/
+scan_results/
+.vscode/
+.idea/
