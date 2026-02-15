@@ -37,7 +37,7 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/rohan/guardclaw"
+Repository = "https://github.com/viruswami5511/guardclaw"
 
 [project.scripts]
 guardclaw = "guardclaw.cli.main:main"
