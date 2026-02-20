@@ -556,6 +556,11 @@ Authoritative time proof requires external timestamp authorities (e.g., RFC 3161
 
 \## 7. Ledger-Local Integrity vs. Global Consensus
 
+Recent projects such as Ungate Wukong (built on EigenLayer restaking) position decentralized validation as a trust layer for AI agent behavior verification.
+These approaches provide on-chain reputation and economic consensus but require significant infrastructure: staking mechanisms, validator networks, and consensus protocols.
+
+Replay-Bound Evidence operates at a lower infrastructure layer. It requires only a key pair and deterministic verification logic. It is complementary to
+blockchain-based approaches: RBE provides the tamper-evident local event record that can optionally be anchored to external systems at Level 3–4 maturity.
 
 
 Replay-Bound Evidence does not require distributed consensus.
@@ -673,8 +678,7 @@ External timestamp authorities, key rotation audit trails, genesis identity anch
 \### 10.1 Regulatory Evolution
 
 
-
-Emerging regulatory frameworks increasingly require traceability and integrity controls for high-risk AI systems.
+Emerging regulatory frameworks increasingly require traceability and integrity controls for high-risk AI systems. EU AI Act Article 12 requires automatic logging over system lifetime; Article 15 requires tamper resistance. Level 2 RBE satisfies both requirements with no distributed infrastructure.
 
 
 
@@ -783,6 +787,8 @@ These figures exclude I/O and storage latency.
 \- Multi-agent scalability
 
 \- Privacy-preserving deletion
+
+\- Integration patterns with decentralized validation layers   (e.g., EigenLayer-based trust networks) for Level 4+ anchoring
 
 
 
