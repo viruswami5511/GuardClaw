@@ -48,10 +48,8 @@ for tamper-evident AI agent event records.
 
 \### Security Issues
 
-\*\*Do not open a public issue for security vulnerabilities.\*\*
-
-See \[SECURITY.md](SECURITY.md) for responsible disclosure instructions.
-
+**Do not open a public issue for security vulnerabilities.**
+See [SECURITY.md](https://github.com/viruswami5511/guardclaw/blob/master/SECURITY.md) for responsible disclosure instructions.
 
 
 \### Documentation Improvements
