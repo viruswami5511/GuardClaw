@@ -593,11 +593,9 @@ This is \*\*ledger-local integrity\*\*, not global consensus.
 
 \## 8. Relation to Existing Work
 
-Contemporaneous work includes the Cryptographic Audit Protocol (CAP) v1.0 [VeritasChain Standards Organization, January 2026], which addresses AI safety
-*refusal* provenance using SHA-256 hash chains, RFC 6962 Merkle trees, and RFC 3161 external timestamping. Replay-Bound Evidence differs in scope (agent
-*action* accountability vs. refusal compliance), introduces the subject-scoped replay invariant as a minimal formal property, and requires no distributed
-infrastructure at Level 2. The two frameworks are complementary rather than competing: CAP addresses what was refused; Replay-Bound Evidence addresses 
-what was executed.
+Contemporaneous work includes the CAP (Content / Creative AI Profile) v1.0 [VeritasChain Standards Organization, January 2026, 
+https://veritaschain.org/blog/posts/2026-01-14-cap-v1-official-release/], which addresses AI safety *refusal* provenance using SHA-256 hash chains, 
+RFC 6962 Merkle trees, and RFC 3161 external timestamping. 
 
 
 
@@ -678,7 +676,8 @@ External timestamp authorities, key rotation audit trails, genesis identity anch
 \### 10.1 Regulatory Evolution
 
 
-Emerging regulatory frameworks increasingly require traceability and integrity controls for high-risk AI systems. EU AI Act Article 12 requires automatic logging over system lifetime and imposes record-keeping obligations for high-risk AI systems. Level 2 RBE satisfies the technical intent of these requirements with no distributed infrastructure.
+Emerging regulatory frameworks increasingly require traceability and integrity controls for high-risk AI systems. EU AI Act Article 12 requires automatic logging over system lifetime and imposes record-keeping obligations for high-risk AI systems. Level 2 RBE aligns with the technical intent of these logging 
+and traceability requirements with no distributed infrastructure.
 
 
 

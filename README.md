@@ -14,8 +14,9 @@ tamper-evident logging in autonomous AI agents.
 - 📖 [Read the paper](docs/replay-bound-evidence-v1.0.md)
 - 🏷️ Tagged release: `paper-v1.0`
 
-> This paper introduces the concept of *Replay-Bound Evidence* — a mechanism
-> to ensure every AI action is signed, chained, and verifiable against replay attacks.
+> This paper introduces the concept of *Replay-Bound Evidence* — a minimal
+> framework for cryptographically signed, nonce-bound, and independently
+> verifiable AI agent event records.
 
 ---
 
@@ -281,15 +282,8 @@ Not recommended for production use in:
 ---
 
 ## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
-Contributions are welcome.
-
-Before submitting:
-
-- Read the Protocol specification  
-- Read the Security model  
-- Include tests  
-- Maintain scope discipline  
 
 ---
 
